@@ -1,0 +1,101 @@
+.details-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.recipe-details-content {
+    position: relative;
+    display: flex;
+    max-width: 1000px;
+    margin: 50px;
+}
+
+.back-button {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    margin-left: -140px;
+    margin-top: 20px;
+    left:0;
+    top: 0;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+.food-image {
+    height: 360px;
+    width: 480px;
+    background-color: lightgray;
+    border-radius: 30px;
+}
+
+.image-description h2 {
+    font-family: 'Source Serif Pro', serif;
+    margin: 15px 0px 15px 10px;
+}
+
+.line {
+    border-left: 1px solid lightgray;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags article {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px 20px 10px 20px;
+    background-color: #EDEDED;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.content-right h2 {
+    font-family: 'Source Serif Pro', serif;
+    
+}
+
+.content-right p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.left-arrow-icon {
+    transform: scaleX(-1);
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border:none;
+    background-color:#416724;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 795px) {
+    .recipe-details-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .detail-description-container {
+        max-width: 500px;
+    }
+}

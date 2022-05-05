@@ -1,0 +1,264 @@
+.form-section {
+    width: 50%;
+}
+
+.questions {
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    margin: 35px 15px 35px 35px;
+    border-radius: 30px;
+}
+
+.questions input {
+    margin: 10px;
+    width: 100px;
+}
+
+.questions button {
+    width: 100px;
+    margin: 10px;
+}
+
+.questionnaire-info {
+    display: flex;
+    max-width: 400px;
+    margin: 25px;
+}
+
+.question-content {
+    margin: 2px 5px 2px 5px;
+}
+
+.question-content p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.slider-wrapper p {
+    font-weight: normal;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.questionnaire-info-text h2 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.questionnaire-info-text p {
+    font-family: 'Source Sans Pro', sans-serif;
+    /* min-width: 270px; */
+    margin-top: 0px;
+    margin-right: 15px;
+    
+}
+
+.bulb-icon {
+    height: 78px;
+    margin-top: -5px;
+}
+
+.option-select-container {
+    margin-top: 20px;
+}
+.option-select {
+    margin-right: 40px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 25px;
+}
+
+li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.num-circle {
+    background-color: #416724;
+    border-radius: 50px;
+    min-width:35px;
+    height:35px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num-circle p {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    color: white;
+}
+
+input[type='checkbox'] {
+    margin: 5px;
+    width: 13px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+}
+
+.check-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.check-wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 3px;
+}
+.check-wrapper label {
+    display: inline;
+}
+
+.form-button-container {
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border:none;
+    background-color:#416724;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: -8px;
+}
+.slider-wrapper {
+    display: flex;
+}
+
+.cuisine {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 230px;
+}
+
+.diet {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 120px;
+}
+
+.intolerance {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 120px;
+
+}
+
+@media screen and (max-width: 1230px) {
+    .cuisine {
+        max-height: 270px;
+    }
+}
+
+@media screen and (max-width: 1095px) {
+    .cuisine {
+        max-height: 380px;
+    }
+
+    .diet {
+        max-height: 180px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .cuisine {
+        max-height: 760px;
+    }
+
+    .diet {
+        max-height: 320px;
+    }
+
+    .intolerance {
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 703px) {
+    .form-section {
+        width: 100%;
+    }
+
+    .questions {
+        margin-right: 35px;
+    }
+    .cuisine {
+        max-height: 270px;
+    }
+
+    .diet {
+        max-height: 120px;
+    }
+
+    .intolerance {
+        max-height: 120px;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .cuisine {
+        max-height: 380px;
+    }
+
+    .diet {
+        max-height: 320px;
+    }
+
+    .intolerance {
+        max-height: 120px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .cuisine {
+        max-height: 760px;
+    }
+
+    .diet {
+        max-height: 320px;
+    }
+
+    .intolerance {
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .intolerance {
+        max-height: 400px;
+    }
+
+    .form-button-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}

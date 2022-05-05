@@ -1,0 +1,25 @@
+.image-grid-section {
+    width: 50%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.fruit {
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 703px) {
+    .image-grid-section {
+        width: 100%;
+    }
+    
+    .card-container {
+        margin-right: 0px;
+    }
+}

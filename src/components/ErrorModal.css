@@ -1,0 +1,49 @@
+.error-large-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.error-modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 30px;
+    height: 200px;
+    width: 30vw;
+    margin-top: 180px;
+}
+
+.error-info {
+    position: absolute;
+    left: 0;
+}
+
+.error-modal-container p {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    max-width: 25vw;
+}
+
+.error-modal-container h2 {
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 703px) {
+    .error-large-container {
+        width: 100%;
+    }
+    .error-modal-container {
+        
+        margin-bottom: 50px;
+    }
+
+    .error-modal-container p {
+        max-width: 60vw;
+    }
+}
