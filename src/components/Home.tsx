@@ -14,7 +14,7 @@ const Home: React.FC = () => {
 
   useEffect(() => {
     const fetchData = async() => {
-      const res = await fetch(`https://api.spoonacular.com/recipes/complexSearch?${cuisineTypeEndPoint}${intoleranceEndPoint}${dietRestrictionEndPoint}${typeEndPoint}&apiKey=${process.env.REACT_APP_API_KEY}`)
+      const res = await fetch(`https://api.spoonacular.com/recipes/complexSearch?${cuisineTypeEndPoint}${intoleranceEndPoint}${dietRestrictionEndPoint}${typeEndPoint}&apiKey=6b85e435f89042ecbed046937a871432`)
       const resJson = await res.json()
       .catch(error => setErrorState(error));
       console.log(resJson)
@@ -41,7 +41,7 @@ const Home: React.FC = () => {
   const randomSearch = (event: any) => {
     event?.preventDefault();
     const fetchData = async() => {
-      const res = await fetch(`https://api.spoonacular.com/recipes/random?number=10&apiKey=${process.env.REACT_APP_API_KEY}`)
+      const res = await fetch(`https://api.spoonacular.com/recipes/random?number=10&apiKey=6b85e435f89042ecbed046937a871432`)
       const resJson = await res.json()
       .catch(error => console.log(error));
       console.log(resJson)

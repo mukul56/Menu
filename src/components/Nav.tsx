@@ -19,11 +19,7 @@ const Nav: React.FC = () => {
         })}
         >About</NavLink>
       </div>
-      <h1>Cravr</h1>
-      <div className="nav-items right">
-        <a href="https://github.com/ewang0/stretch-tech" target="_blank" rel="noreferrer">Repo</a>
-        <a href="https://spoonacular.com/food-api" target="_blank" rel="noreferrer">API</a>
-      </div>
+      <h1>Menu</h1>
     </nav>
   )
 }

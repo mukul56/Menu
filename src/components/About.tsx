@@ -5,19 +5,22 @@ const About: React.FC = () => {
     return (
         <section className='about-section-container'>
             <div className="project-description">
-                <h2>What's Cravr?</h2>
-                <p>Cravr is a web application built with TypeScript and React. Have you ever been hungry, but not exactly sure what you're craving? With Cravr, you can figure out what you're craving in seconds by answering a series of questions. Fill out the form, submit, and see beautifully curated recipe recommendations based on your search. Check out the <a href="https://spoonacular.com/food-api" target="blank" rel="noreferrer">Spoonacular API</a> for more recipes.</p>
+                <h2>What's Menu?</h2>
+                <p>Have you ever been hungry, but not exactly sure what you're craving? With Cravr, you can figure out what you're craving in seconds by answering a series of questions. Fill out the form, submit, and see beautifully curated recipe recommendations based on your search.</p>
             </div>
             <h3>Team</h3>
             <div className="profiles">
                 <article className="team-profile">
-                    <h4>Tony Hsu</h4>
+                    <h4>Ashish Singh</h4>
                 </article>
                 <article className="team-profile">
-                    <h4>Ricardo Tovar</h4>
+                    <h4>Deepak Sharma</h4>
                 </article>
                 <article className="team-profile">
-                    <h4>Eric Wang</h4>
+                    <h4>Mukul Agarwal</h4>
+                </article>
+                <article className="team-profile">
+                    <h4>Satyam Sharma</h4>
                 </article>
             </div>
         </section>
