@@ -52,10 +52,5 @@ Responsive Design:
 
 
 
-## Contributors
-[Ricardo Tovar](https://github.com/JRicardoT)  
-[Eric Wang](https://github.com/ewang0)  
-[Tony Hsu](https://github.com/tonydhsu)  
-
 ## Specs
 [Stretch Tech Project](https://frontend.turing.edu/projects/module-3/stretch.html)
