@@ -1,5 +1,7 @@
 # Menu :spaghetti:
 
+# Deployed On:
+https://main--playful-rolypoly-86990e.netlify.app/
 
 ## Table of Contents
   - [Abstract](#Abstract)
